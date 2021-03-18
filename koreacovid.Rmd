@@ -64,8 +64,13 @@ As we see with the exact percentages, far more women were surviving than men, an
 
 ## Inferential results 
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
-
+The odds of a male dying is 2.3 times greater than the female dying.
 
 ## Conclusions
 
