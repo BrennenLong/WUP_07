@@ -74,3 +74,5 @@ The odds of a male dying is 2.3 times greater than the female dying.
 
 ## Conclusions
 
+The data shows that it is more likely that a male will die than a female.
+
