@@ -54,6 +54,13 @@ with(kRdata, table(Sex, result))
   
 ## Numerical results
 
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
+
+As we see with the exact percentages, far more women were surviving than men, and for the death toll, more men were dying than women.
 
 ## Inferential results 
 
